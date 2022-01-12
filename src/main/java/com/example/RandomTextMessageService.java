@@ -10,7 +10,7 @@ public class RandomTextMessageService implements MessageService{
 
     ArrayList<String> listOfMessages = new ArrayList<>();
 
-    private RandomTextMessageService() {
+    public RandomTextMessageService() {
         this.listOfMessages.add("message 1");
         this.listOfMessages.add("message 2");
         this.listOfMessages.add("message 3");
